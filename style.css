@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'dorna';
+    src: url('./assets/font/DoranFaNum-ExtraBold.woff2') format("woff2");
+}
+
+@font-face {
+    font-family: 'main-font';
+    src: url('./assets/font/PeydaWebFaNum-Medium.woff2') format("woff2");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "dorna" !important;
+}
+
+html,
+body {
+    font-family: 'main-font';
+    line-height: normal;
+
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bg-kahooo {
+    background: rgb(181, 196, 181);
+}
+
+.bg-services {
+    background: rgb(248, 215, 221);
+}
+
+.line-normal {
+    line-height: normal;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.border-right {
+    width: 2px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: purple;
+}
